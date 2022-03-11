@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Navbar CSS*/
+.Navbar{
+height: 100px;
+position:sticky;
+margin:  0px 20px;
+}
+.Navbar-image {
+top: 22px;
+left: 150px;
+background-image: linear-gradient(to right bottom, #bdeefd, #8bdafd, #59c4ff, #28abff, #1d90ff, #148bff, #0d86ff, #0981ff, #0094ff, #00a5ff, #00b5ff, #06c3fb);
+position: absolute;
+}
+.Navbar-menu ul{
+float: right;
+padding: 37px 85px;
+}
+.Navbar-menu li {
+list-style: none;
+display: inline;
+margin-right: 60px;
+}
+.Navbar-menu a{
+text-decoration: none;
+color:#3d7dca
+}
+.startbtn{
+border: 1px solid #3d7dca;
+padding: 8px 10px;
+}
+.startbtn:hover{
+    background:#3d7dca ;
+    color: white;
+}
+/*FORM */
+.infoName{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+input[type="text"]{
+    padding: 14px 35px;
+    margin-bottom: 10px;
+}
+select{
+    padding: 14px 56px;
+    margin-bottom: 10px;
+}
+.textarea{
+    font-size: 24px;
+   
+}
+.texty{
+    margin-left: 250px;
+}
+#submit{
+    border: 1px solid blue;
+    color: white;
+    background: #3d7dca;
+    padding: 12px 85px;
+    margin-left: 250px;
+    margin-top: 50px;
+    font-size: 24px;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+float: left;
+width: 23%;
+padding: 10px;
+height: 300px; 
+}
+
+/* Clear floats after the columns */
+.footer:after {
+content: "";
+display: table;
+clear: both;
+}
+.footer{margin-left: 150px; }
+.column a{
+  text-decoration: none;
+  color:#3471bc ;
+}
+form{
+    margin: 100px 250px 100px 150px;
+}

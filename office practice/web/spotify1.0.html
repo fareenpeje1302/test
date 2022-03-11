@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>spotify2 </title>
+  <link rel="stylesheet" href="spotify1.0.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@100&display=swap" rel="stylesheet"> </head>
+
+<body>
+  <button onclick="topFunction()" id="mybtn" title="go to top">Top</button>
+  <!--TOP Navigation Bar-->
+  <div class="navbar">
+    <ul class="nav-logbtn">
+      <li class="arrow"> 
+        <a href="#" class="previous round">&#8249;</a>
+         <a href="#" class="next round">&#8250;</a>
+      </li>
+      <li >
+        <button class="navlog-btn">
+          <a href="file:///C:/xxamp/htdocs/HCJ/login%20in%20form.html">LOG IN</a>
+        </button>
+      </li>
+        <!--MODAL FOR SIGN IN-->
+        <li>
+          <button id="mybtn2" class="acc" onclick="func4()">sign up</button>
+        </li>
+        </ul>
+          <div class="modal" id="myModal">
+            <div class="modal-content"> 
+              <span class="closebtn" onclick="func5()"> &times;</span> 
+              <div>
+              <img src="C:\xxamp\htdocs\HCJ/10.jfif" width="200px" height="230px">
+            </div>
+            <div>
+              <p style="padding:10px;">Start listening with a<br> free Spotify Account</p>
+              <button class="button-deco1"> <a href="file:///C:/xxamp/htdocs/HCJ/form1.0.html">SIGN UP FREE</a> </button>
+              <BR>
+              <BR>
+              <button class="button-deco2"> <a href="https://www.spotify.com/in-en/download/windows/?referrer=dwp">DOWNLOAD APP</a> </button>
+              <p id="modal-contentsize">Already have an account?
+                <button class="button-deco3"><a href="file:///C:/xxamp/htdocs/HCJ/login%20in%20form.html">LOG IN</a></button>
+              </p></div>
+            </div>
+          </div>
+        
+    
+  </div>
+  <!--leftmenu-->
+  <div class="leftmenu" style="padding-top: 0px;">
+    <div class="leftnav">
+      <h1>
+          <i class="fab fa-spotify"></i> Spotify
+        </h1>
+      <ul class="leftmenu1">
+        <li>
+          <a href="#home" class="list"> <i class="fas fa-home"></i> Home </a>
+        </li>
+        <li>
+          <a href="#search" class="list"> <i class="fas fa-search"></i> Search </a>
+        </li>
+        <li>
+          <a href="#Your" class="list"> <i class="fas fa-grip-lines-vertical"></i> Your Library </a>
+        </li>
+    </div>
+  </div>
+  <!--main content of the page-->
+  <div class="content" style="margin-left: 220px;">
+    <div class="header">
+      <h1>India's Best </h1> </div>
+    <div class="container">
+      <div class="card">
+        <div class="img"> <img src="C:\Users\faree\Documents\fareen peje\spotify/1.jfif" width="170px" height="200px">
+          <span class="action">
+            <button type="button" class="gate" onclick="myfunc1()"> <i class="fas fa-play"></i> </button>
+          </span>
+        </div>
+        <div class="detail">
+          <h2>Bollywood Butter </h2>
+          <p>The finest of bollywood music handpicked for you </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img" class="action"> <img src="C:\Users\faree\Documents\fareen peje\spotify/2.jpg" width="170px" height="200px">
+          
+            <button type="button" class="gate" onclick="myfunc2()"> <i class="fas fa-play"></i> </button>
+          
+        </div>
+        <div class="detail">
+          <h2>kollywood Butter </h2>
+          <p>The finest of kollywood music handpicked for you </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img"> <img src="C:\Users\faree\Documents\fareen peje\spotify/3.jfif" width="170px" height="200px">
+          <div class="action">
+            <button type="button" class="gate" onclick="myfunc3()"> <i class="fas fa-play"></i> </button>
+          </div>
+        </div>
+        <div class="detail">
+          <h2>punjabi song </h2>
+          <p>The finest of bollywood music handpicked for you </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img"> <img src="C:\Users\faree\Documents\fareen peje\spotify/4.jfif" width="170px" height="200px">
+          <div class="action">
+          </div>
+        </div>
+        <div class="detail">
+          <h2>Tollywood Butter </h2>
+          <p>The finest of Telugu music handpicked for you </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img"> <img src="C:\Users\faree\Documents\fareen peje\spotify/5.jfif" width="170px" height="200px">
+          <!-- <div class="action"><button type="button" class="gate" onclick='document.getElementById("demo").style="display:block";'><i class="fas fa-play"></i></button></div>--></div>
+        <div class="detail">
+          <h2>Indie Indie </h2>
+          <p>The finest of country's handpicked for you </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img"> <img src="C:\Users\faree\Documents\fareen peje\spotify/6.jfif" width="170px" height="200px">
+          <!-- <div class="action"><button type="button" class="gate" onclick='document.getElementById("demo").style="display:block";'><i class="fas fa-play"></i></button></div>--></div>
+        <div class="detail">
+          <h2>Rajaa Rules </h2>
+          <p>The finest of bollywood music handpicked for you </p>
+        </div>
+      </div>
+    </div>
+    <div class="header1">
+      <h1>Charts </h1> </div>
+    <div class="container">
+      <div class="card">
+        <div class="img"> <img src="C:\Users\faree\Documents\fareen peje\spotify/7.jfif" width="170px" height="200px">
+          <!-- <div class="action"><button type="button" class="gate" onclick='document.getElementById("demo").style="display:block";'><i class="fas fa-play"></i></button></div>--></div>
+        <div class="detail">
+          <h2>Top 50-India </h2>
+          <p>The finest of bollywood music handpicked for you </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img"> <img src="C:\Users\faree\Documents\fareen peje\spotify/8.jpg" width="170px" height="200px">
+          <!-- <div class="action"><button type="button" class="gate" onclick='document.getElementById("demo").style="display:block";'><i class="fas fa-play"></i></button></div>--></div>
+        <div class="detail">
+          <h2>Top 50-global </h2>
+          <p>The finest of bollywood music handpicked for you </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img"> <img src="C:\Users\faree\Documents\fareen peje\spotify/9.jpg" width="170px" height="200px">
+          <!-- <div class="action"><button type="button" class="gate" onclick='document.getElementById("demo").style="display:block";'><i class="fas fa-play"></i></button></div>--></div>
+        <div class="detail">
+          <h2>Hot Hits Hindi </h2>
+          <p>The finest of bollywood music handpicked for you </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img"> <img src="C:\Users\faree\Documents\fareen peje\spotify/10.jfif" width="170px" height="200px">
+          <!-- <div class="action"><button type="button" class="gate" onclick="myfunc3"><i class="fas fa-play"></i></button></div>--></div>
+        <div class="detail">
+          <h2>Top Hits- Tamil </h2>
+          <p>The finest of bollywood music handpicked for you </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="content" style="margin-left: 220px;">
+    <div class="header">
+      <h1>Sleep </h1> </div>
+    <div class="container">
+      <div class="card">
+        <div class="img"> <img src="C:\Users\faree\Documents\fareen peje\spotify/10.jfif" width="170px" height="200px">
+          <!-- <div class="action"><button type="button" class="gate" onclick='document.getElementById("demo").style="display:block";'><i class="fas fa-play"></i></button></div>--></div>
+        <div class="detail">
+          <h2>Peaceful Paino </h2>
+          <p>The finest of bollywood music handpicked for you </p>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <h1>Focus </h1>
+      <h6>Music to help you concentrate </h6> </div>
+    <div class="container">
+      <div class="card">
+        <div class="img"> <img src="C:\Users\faree\Documents\fareen peje\spotify/10.jfif" width="170px" height="200px">
+          <!-- <div class="action"><button type="button" class="gate" onclick='document.getElementById("demo").style="display:block";'><i class="fas fa-play"></i></button></div>--></div>
+        <div class="detail">
+          <h2>Deep Focus </h2>
+          <p>The finest of bollywood music handpicked for you </p>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <h1>Mood </h1>
+      <h5 style="padding:5px 0px">Playlist to match your mood </h5> </div>
+    <div class="container">
+      <div class="card">
+        <div class="img"> <img src="C:\Users\faree\Documents\fareen peje\spotify/10.jfif" width="170px" height="200px">
+          <!-- <div class="action"><button type="button" class="gate" onclick='document.getElementById("demo").style="display:block";'><i class="fas fa-play"></i></button></div>--></div>
+        <div class="detail">
+          <h2>Bollywood Butter </h2>
+          <p>The finest of bollywood music handpicked for you </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--audio 
+
+          control
+
+        -->
+  <div class="controlbar" id="demo">
+    <div class="control">
+      <audio controls id="p" class="audiplay">
+        <source src="C:\Users\faree\Documents\fareen peje/atif.mp3" type="audio/mp3"> </audio>
+    </div>
+    <div class="controlhead"> <img src="C:\Users\faree\Documents\fareen peje\spotify/1.jfif" alt="pic" width="35px" height="40px">
+      <h2>Tera Chehra</h2>
+      <h6>Album song</h6>
+      <div class="close">
+        <button type="button" onclick="myfunc3()"> <i class="fas fa-times"></i> </button>
+      </div>
+    </div>
+  </div>
+  <!--Here is the JavaScript Library-->
+  <script src="https://cdn.jsdelivr.net/gh/sh20raj/AudiPlay/audiplay.min.js"></script>
+  <!--audio control-->
+  <div class="controlbar" id="dil">
+    <div class="control">
+      <audio controls id="p1" class="audiplay">
+        <source src="C:\Users\faree\Documents\fareen peje\spotify/atif2.mp3" type="audio/mp3"> </audio>
+    </div>
+    <div class="controlhead"> <img src="C:\Users\faree\Documents\fareen peje\spotify/1.jfif" alt="pic" width="35px" height="40px">
+      <h2>Dil</h2>
+      <h6>Album song</h6>
+      <div class="close">
+        <button type="button" onclick="demo()"> <i class="fas fa-times"></i> </button>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/gh/sh20raj/AudiPlay/audiplay.min.js"></script>
+  <!--Here is the JavaScript Library-->
+  <script src="spotify1.0.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>youtube</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="youtube.css"> </head>
+
+<body>
+	<!--TOP NAVBAR-->
+	<div class="navbar">
+		<div class="navbar-menu">
+			<div class="navbar-header">
+				<button onclick="myfunction1()"><i class="fas fa-bars"></i></button>
+				<div class="youtube-icon"><i class="fab fa-youtube"></i></div>
+				<div>
+					<h4 style="font-size: 16px;font-family: Roboto, Arial, sans-serif;">
+					 YOUTUBE<sup>IN</sup>
+					</h4> </div>
+			</div>
+			<div class="navbar-search">
+				<input type="text" name="search" placeholder="Search..">
+				<button type="submit" id="search1"><i class="fas fa-search"></i></button>
+				<button type="submit" id="search2"><i class="fas fa-microphone"></i></button>
+			</div>
+			<div class="nav-icons">
+				<button><i class="fas fa-table"></i></button>
+				<a href="https://accounts.google.com/ServiceLogin/signinchooser?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+					<button class="signin"><i class="fas fa-user"></i> SIGN IN</button>
+				</a>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!--
+
+
+
+	LEFT NAVBAR
+
+
+-->
+	<div class="leftnavbar" id="leftnavbar2">
+		<div class="leftnavbar-menu">
+			<ul>
+				<li><i class="fas fa-home"></i> Home</li>
+				<li><i class="far fa-compass"></i> Explore</li>
+				<li><i class="fab fa-staylinked"></i> Subscription</li>
+				<hr>
+				<li><i class="fas fa-book"></i> Library</li>
+				<li><i class="fas fa-history"></i> history</li>
+				<hr>
+				<li style="text-align: center;">Sign in to like video,comment and share</li>
+				<a href="https://accounts.google.com/ServiceLogin/signinchooser?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+					<button class="leftnav-sign"><i class="fas fa-user"></i> SIGN IN</button>
+				</a>
+				<hr>
+				<label>BEST OF YOUTUBE</label>
+				<li><i class="fas fa-music"></i> Music</li>
+				<li><i class="fas fa-trophy"></i> Sports</li>
+				<li><i class="fas fa-gamepad"></i> Gaming</li>
+				<li><i class="fas fa-film"></i> Movies</li>
+				<li><i class="fas fa-newspaper"></i> News</li>
+				<li><i class="fas fa-satellite-dish"></i> Live</li>
+				<li><i class="fas fa-tshirt"></i> Fashion & Beauty</li>
+				<li><i class="fas fa-lightbulb"></i> Learning</li>
+				<li><i class="fab fa-youtube"></i> Spotlight</li>
+				<li><i class="fas fa-gamepad"></i> 360<sup>o</sup> video</li>
+				<hr>
+				<li><i class="fas fa-plus-circle"></i> Browse Channels</li>
+				<hr>
+				<label>MORE FROM YOUTUBE</label>
+				<li><i class="fab fa-youtube"></i> Youtube Permium</li>
+				<li><i class="fas fa-broadcast-tower"></i> Live</li>
+				<hr>
+				<li><i class="fas fa-cogs"></i> setting</li>
+				<li><i class="far fa-flag"></i> Report history</li>
+				<li><i class="far fa-question-circle"></i> Help</li>
+				<li><i class="far fa-comment-alt"></i> Send Feeback</li>
+				<hr>
+				<li>About Press Copyrigth
+					<br> Contact us Creators
+					<br> Advertise Developers
+					<br> </li>
+				<br>
+				<li> Terms Privavy Policy&Safety
+					<br> How YouTube works
+					<br> Test new features</li>
+			</ul>
+			<h6 style="color: ghostwhite;">&copy;2021 Google LLC</h6> </div>
+	</div>
+	<!--new leftnavbar-->
+	<div class="leftnavbar2" id="leftnavbar3" style="display:none" ;>
+		<div class="leftnavbar-menu2">
+			<ul>
+				<div class="home">
+					<li><i class="fas fa-home"></i> </li>
+					<li class="menu">Home</li>
+				</div>
+				<div class="explore">
+					<li><i class="far fa-compass"></i> </li>
+					<li class="menu">Explore</li>
+				</div>
+				<div class="subscription">
+					<li><i class="fab fa-staylinked"></i> </li>
+					<li class="menu">Subscription</li>
+				</div>
+				<div class="library">
+					<li><i class="fas fa-book"></i> </li>
+					<li class="menu">Library</li>
+				</div>
+			</ul>
+		</div>
+	</div>
+	
+	<!--HORIZONITAL MENU
+	<div class="navbar-linkmenu">
+		<div class="navbar-linkmenu1">
+			<button class="all">All</button>
+			<button>comedy</button>
+			<button>Mixes</button>
+			<button>Live</button>
+			<button>BTS</button>
+			<button>Korean dramas</button>
+			<button>Dance-pop</button>
+			<button>HTML</button>
+			<button>Python</button>
+			<button>Anime</button>
+			<button>java</button>
+			<button>courses</button>
+			<button>Hwasa</button>
+			<button>Game Shows</button>
+			<button>Neddlework</button>
+			<button>Bollywood</button>
+			<button>Sewing</button>	
+			<button>Gaming</button>		
+		</div>
+	</div>
+	<hr>-->
+	<!--MAIN CONATINER-->
+	<div class="main-container">
+		<div class="container-card">
+			<video width="300" onmouseover="this.play()" onmouseout="this.pause()" onclick="myfunction3()">
+				<source src="C:\Users\faree\Documents\fareen peje/fan.mp4" type="video/mp4"> </video>
+			<ul>
+				<li class="clock" onclick="myfunction2()">
+					<i class="far fa-clock" ></i></li>
+				 <span id="Watch-later" >Watch Later</span>
+				
+			</ul>
+			<div> <i class="fas fa-ellipsis-v"></i> </div>
+			<div class="queue"><i class="fas fa-folder-open"></i></div>
+			<div class="containerheader">
+				<h5><a href="file:///C:/Users/faree/Documents/fareen%20peje/youtube2.html"> Reparing fan</h5></a>
+				<h6>hoxon</h6>
+				<h6>42M views<span> 5 months ago</span></h6> </div>
+		</div>
+		<div class="container-card">
+			<video width="300" onmouseover="this.play()" onmouseout="this.pause()" class="video-container">
+				<source src="C:\Users\faree\Documents\fareen peje/10 Bollywood Actors Most Expensive Bike.mp4" type="video/mp4"> </video>
+			<ul>
+				<li class="clock"><i class="far fa-clock"></i> <span>Watch Later</span></li>
+			</ul>
+			<div class="queue"><i class="fas fa-folder-open"></i></div>
+			<div> <i class="fas fa-ellipsis-v"></i> </div>
+			<div class="containerheader">
+				<h5>10 Bollywood Actors<br> Most Expensive Bike</h5>
+				<h6>hoxon</h6>
+				<h6>42M views<span> 5 months ago</span></h6> </div>
+		</div>
+		<div class="container-card">
+			<video width="300" onmouseover="this.play()" onmouseout="this.pause()">
+				<source src="C:\Users\faree\Documents\fareen peje/fan.mp4" type="video/mp4"> </video>
+			<ul>
+				<li class="clock"><i class="far fa-clock"></i> <span>Watch Later</span></li>
+			</ul>
+			<div> <i class="fas fa-ellipsis-v"></i> </div>
+			<div class="queue"><i class="fas fa-folder-open"></i></div>
+			<div class="containerheader">
+				<h5>Reparing fan</h5>
+				<h6>hoxon</h6>
+				<h6>42M views<span> 5 months ago</span></h6> </div>
+		</div>
+		<div class="container-card">
+			<video width="300" onmouseover="this.play()" onmouseout="this.pause()" class="video-container">
+				<source src="C:\Users\faree\Documents\fareen peje/10 Bollywood Actors Most Expensive Bike.mp4" type="video/mp4"> </video>
+			<ul>
+				<li class="clock"><i class="far fa-clock"></i> <span>Watch Later</span></li>
+			</ul>
+			<div class="queue"><i class="fas fa-folder-open"></i></div>
+			<div> <i class="fas fa-ellipsis-v"></i> </div>
+			<div class="containerheader">
+				<h5>10 Bollywood Actors<br> Most Expensive Bike</h5>
+				<h6>hoxon</h6>
+				<h6>42M views<span> 5 months ago</span></h6> </div>
+		</div>
+		<div class="container-card">
+			<video width="300" onmouseover="this.play()" onmouseout="this.pause()">
+				<source src="C:\Users\faree\Documents\fareen peje/fan.mp4" type="video/mp4"> </video>
+			<ul>
+				<li class="clock"><i class="far fa-clock"></i> <span>Watch Later</span></li>
+			</ul>
+			<div> <i class="fas fa-ellipsis-v"></i> </div>
+			<div class="queue"><i class="fas fa-folder-open"></i></div>
+			<div class="containerheader">
+				<h5>Reparing fan</h5>
+				<h6>hoxon</h6>
+				<h6>42M views<span> 5 months ago</span></h6> </div>
+		</div>
+		<div class="container-card">
+			<video width="300" onmouseover="this.play()" onmouseout="this.pause()" class="video-container">
+				<source src="C:\Users\faree\Documents\fareen peje/10 Bollywood Actors Most Expensive Bike.mp4" type="video/mp4"> </video>
+			<ul>
+				<li class="clock"><i class="far fa-clock"></i> <span>Watch Later</span></li>
+			</ul>
+			<div class="queue"><i class="fas fa-folder-open"></i></div>
+			<div> <i class="fas fa-ellipsis-v"></i> </div>
+			<div class="containerheader">
+				<h5>10 Bollywood Actors<br> Most Expensive Bike</h5>
+				<h6>hoxon</h6>
+				<h6>42M views<span> 5 months ago</span></h6> </div>
+		</div>
+		<div class="container-card">
+			<video width="300" onmouseover="this.play()" onmouseout="this.pause()">
+				<source src="C:\Users\faree\Documents\fareen peje/fan.mp4" type="video/mp4"> </video>
+			<ul>
+				<li class="clock"><i class="far fa-clock"></i> <span>Watch Later</span></li>
+			</ul>
+			<div> <i class="fas fa-ellipsis-v"></i> </div>
+			<div class="queue"><i class="fas fa-folder-open"></i></div>
+			<div class="containerheader">
+				<h5>Reparing fan</h5>
+				<h6>hoxon</h6>
+				<h6>42M views<span> 5 months ago</span></h6> </div>
+		</div>
+		<div class="container-card">
+			<video width="300" onmouseover="this.play()" onmouseout="this.pause()" class="video-container">
+				<source src="C:\Users\faree\Documents\fareen peje/10 Bollywood Actors Most Expensive Bike.mp4" type="video/mp4"> </video>
+			<ul>
+				<li class="clock"><i class="far fa-clock"></i> <span>Watch Later</span></li>
+			</ul>
+			<div class="queue"><i class="fas fa-folder-open"></i></div>
+			<div> <i class="fas fa-ellipsis-v"></i> </div>
+			<div class="containerheader">
+				<h5>10 Bollywood Actors<br> Most Expensive Bike</h5>
+				<h6>hoxon</h6>
+				<h6>42M views<span> 5 months ago</span></h6> </div>
+		</div>
+		<div class="container-card">
+			<video width="300" onmouseover="this.play()" onmouseout="this.pause()">
+				<source src="C:\Users\faree\Documents\fareen peje/fan.mp4" type="video/mp4"> </video>
+			<ul>
+				<li class="clock"><i class="far fa-clock"></i> <span>Watch Later</span></li>
+			</ul>
+			<div> <i class="fas fa-ellipsis-v"></i> </div>
+			<div class="queue"><i class="fas fa-folder-open"></i></div>
+			<div class="containerheader">
+				<h5>Reparing fan</h5>
+				<h6>hoxon</h6>
+				<h6>42M views<span> 5 months ago</span></h6> </div>
+		</div>
+		<div class="container-card">
+			<video width="300" onmouseover="this.play()" onmouseout="this.pause()" class="video-container">
+				<source src="C:\Users\faree\Documents\fareen peje/10 Bollywood Actors Most Expensive Bike.mp4" type="video/mp4"> </video>
+			<ul>
+				<li class="clock"><i class="far fa-clock"></i> <span>Watch Later</span></li>
+			</ul>
+			<div class="queue"><i class="fas fa-folder-open"></i></div>
+			<div> <i class="fas fa-ellipsis-v"></i> </div>
+			<div class="containerheader">
+				<h5>10 Bollywood Actors<br> Most Expensive Bike</h5>
+				<h6>hoxon</h6>
+				<h6>42M views<span> 5 months ago</span></h6> </div>
+		</div>
+		<div class="container-card">
+			<video width="300" onmouseover="this.play()" onmouseout="this.pause()">
+				<source src="C:\Users\faree\Documents\fareen peje/fan.mp4" type="video/mp4"> </video>
+			<ul>
+				<li class="clock"><i class="far fa-clock"></i> <span>Watch Later</span></li>
+			</ul>
+			<div> <i class="fas fa-ellipsis-v"></i> </div>
+			<div class="queue"><i class="fas fa-folder-open"></i></div>
+			<div class="containerheader">
+				<h5>Reparing fan</h5>
+				<h6>hoxon</h6>
+				<h6>42M views<span> 5 months ago</span></h6> </div>
+		</div>
+		<div class="container-card">
+			<video width="300" onmouseover="this.play()" onmouseout="this.pause()" class="video-container">
+				<source src="C:\Users\faree\Documents\fareen peje/10 Bollywood Actors Most Expensive Bike.mp4" type="video/mp4"> </video>
+			<ul>
+				<li class="clock"><i class="far fa-clock"></i> <span>Watch Later</span></li>
+			</ul>
+			<div class="queue"><i class="fas fa-folder-open"></i></div>
+			<div> <i class="fas fa-ellipsis-v"></i> </div>
+			<div class="containerheader">
+				<h5>10 Bollywood Actors<br> Most Expensive Bike</h5>
+				<h6>hoxon</h6>
+				<h6>42M views<span> 5 months ago</span></h6> </div>
+		</div>
+	</div>
+	<script>
+	function myfunction1() {
+		var x = document.getElementById('leftnavbar2');
+		var y = document.getElementById('leftnavbar3');
+		if(x !== undefined && y !== undefined) {
+			x.style.display = y.style.display === '' ? 'none' : y.style.display === 'none' ? 'none' : 'block';
+			y.style.display = x.style.display === 'block' ? 'none' : 'block';
+		}
+	}
+	function myfunction2(){
+		document.getElementById("watch-later").style.display="block";
+	}
+	function myfunction3(){
+		"file:///C:/Users/faree/Documents/fareen%20peje/youtube2.html"
+	}
+	</script>
+</body>
+
+</html>

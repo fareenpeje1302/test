@@ -1,0 +1,196 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+button {
+	border: none;
+	background: none;
+}
+/*container*/
+.card {
+	padding: 40px 80px;
+	width: 100%;
+	height: 250px;
+}
+
+.card h1 {
+	font-size: 54px;
+	color: white;
+	text-align: center;
+}
+
+.card p {
+	font-size: 17px;
+	color: white;
+	text-align: center;
+}
+
+.card2 {
+	display: flex;
+	flex-wrap: wrap;
+	background: white;
+	width: 70%;
+	border-radius: 2px;
+	margin: -60px auto;
+}
+
+.card2>div {
+	padding: 25px 55px 0px 60px;
+}
+
+.card2 h1 {
+	font-size: 64px;
+}
+
+.container {
+	margin: 0px 230px 0px 230px;
+}
+
+.box {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 250px 50px auto;
+}
+
+.content {
+	width: 450px;
+	margin-left: 38px;
+	margin-top: 80px;
+}
+
+.content p {
+	font-size: 20px;
+}
+.sub-content{
+	width: 50%;
+	margin: 100px  auto;
+}
+.sub-content h1 {
+	text-align: center;
+	font-size: 36px;
+}
+.sub-content p{
+	text-align: center;
+	font-size: 22px;
+	margin: revert;
+}
+.image-card{
+	display: flex;
+	flex-wrap: wrap;
+}
+.imgcard{
+	margin-right: 20px;
+	width: 300px;
+	border: 1px solid wheat;
+}
+.img-content{
+	width: 280px;
+	padding: 0px 0px 28px 17px;
+}
+.img-card2{
+	display: flex;
+	flex-wrap: wrap;
+}
+.imgcard2{
+	margin-left: 80px;
+	margin-top: 90px;
+}
+.img-content2{
+	width:429px ;
+	padding: 0px 0px 28px 0px ;
+	margin-top: 200px;
+}
+
+.img-content2 h1{
+	font-size: 45px;
+}
+.img-content2 p{
+	font-size: 21px;
+}
+/*Navbar CSS*/
+.Navbar {
+	height: 100px;
+	position: sticky;
+	margin: 0px 20px;
+}
+
+.Navbar-image {
+	top: 22px;
+	left: 150px;
+	position: absolute;
+}
+
+.Navbar-menu ul {
+	float: right;
+	padding: 37px 85px;
+}
+
+.Navbar-menu li {
+	list-style: none;
+	display: inline;
+	margin-right: 60px;
+}
+
+.Navbar-menu a {
+	text-decoration: none;
+	color: #3d7dca;
+}
+
+.startbtn {
+	border: 1px solid #3d7dca;
+	padding: 8px 10px;
+}
+
+.startbtn:hover {
+	background: #3371bb;
+	color: white;
+}
+/*SEVENTH PART*/
+.seven {
+	display: flex;
+	margin-bottom: 50px;
+	margin-top: 120px;
+}
+
+.seven img {
+	padding-top: 90px;
+}
+
+.sub-seven {
+	padding-top: 70px;
+	padding-left: 100px;
+}
+
+.formbtn {
+	padding: 17px 40px;
+	background: #3471bc;
+	position: relative;
+}
+
+.formbtn button {
+	margin-top: 50px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 22px;
+	margin-bottom: 40px;
+}
+/* Create four equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 23%;
+	padding: 10px;
+	height: 300px;
+}
+  
+  /* Clear floats after the columns */
+.footer:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column a {
+	text-decoration: none;
+	color: #3471bc;
+}

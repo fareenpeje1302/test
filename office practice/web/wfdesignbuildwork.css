@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Navbar CSS*/
+.Navbar{
+	height: 100px;
+	position:sticky;
+	margin:  0px 20px;
+}
+.Navbar-image {
+	top: 22px;
+	left: 150px;
+	position: absolute;
+}
+.Navbar-menu ul{
+	float: right;
+	padding: 37px 85px;
+}
+.Navbar-menu li {
+	list-style: none;
+	display: inline;
+	margin-right: 60px;
+}
+.Navbar-menu a{
+	text-decoration: none;
+	color:#3d7dca
+}
+.startbtn{
+	border: 1px solid #3d7dca;
+	padding: 8px 10px;
+}
+.startbtn:hover{
+	background: #3371bb;
+	color: white;
+}
+/*container*/
+.container{
+    margin: 0px 136px;
+}
+.sub-container{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.sub-container h1{
+    font-size: 58px;
+    color: #011e41;
+}
+.sub-container p{
+    color:#011e41 ;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    margin-left: 5px;
+}
+/*Pre FOOTER*/
+.seven {
+	display: flex;
+	margin-bottom: 50px;
+    margin-left: 136px;
+    margin-right: 136px;
+}
+.seven img{
+	padding-top: 90px;
+}
+.sub-seven{
+	padding-top: 70px;
+	padding-left: 100px;
+}
+.formbtn{
+	padding: 17px 40px;
+	background:#3471bc ;
+	position: relative;
+}
+.formbtn button{
+	margin-top: 50px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 22px;
+	margin-bottom: 40px;
+}
+button{
+    border: none;
+    background: none;
+}
+/*FOOTER*/
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 23%;
+    padding: 10px;
+    height: 300px; 
+    }
+    
+    /* Clear floats after the columns */
+    .footer:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    .footer{margin-left: 150px; }
+    .column a{
+      text-decoration: none;
+      color:#3471bc ;
+    }
+    form{
+        margin: 100px 250px 100px 150px;
+    }

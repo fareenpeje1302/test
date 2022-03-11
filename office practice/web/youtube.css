@@ -1,0 +1,373 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+hr{ 
+	background-color: #3b3b3b;
+	border-width: 0px;
+	height: 1px;
+	color: #2e2e2e;
+	 }
+/*TOP NAVBAR CSS*/
+.navbar {
+	width: 100%;
+	height: 50px;
+	position: sticky;
+	background: #333;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 0px;
+}
+
+.navbar-menu h4 {
+	color: white;
+	position: relative;
+	left:0px;
+	top: 5px;
+	font-size: 12px;
+}
+
+.navbar-search {
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	left: 220px;
+	top: 0px;
+	color: whitesmoke;
+}
+.navbar-search input[type="text"]{
+	color: white;
+	padding-left: 2px;
+}
+input[type="text"] {
+	width: 300px;
+	height: 39px;
+	background-color: black;
+	border: 1px solid black;
+	position: relative;
+	top: 3px;
+}
+
+.fa-search {
+	border: 1px solid black;
+	background: #141414;
+	padding: 11px 11px;
+	margin-top: 3px;
+}
+/*Media Queries*/
+@media only screen and (min-width: 1200px){
+.navbar-search{
+ left: 450px; 
+}
+
+input[type="text"] { 
+width: 500px; }
+}
+@media only screen and (max-width: 768px){
+	
+DIV .nav-icons{
+	display: none;
+}
+}
+@media only screen and (max-width: 658px){
+	input[type="text"]{
+		width: 150px;
+	}
+}
+/*Media Queries*/
+
+
+
+.navbar-header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.nav-icons {
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	right: 10px;
+	top: 0px;
+}
+.signin{
+	background:#333;
+	border: 1px solid #3ea6ff;
+	color: #3ea6ff;
+	padding: 5px 7px;
+	font-size: 14px;
+	margin-top: 8px;
+	cursor: pointer;
+}
+
+button {
+	border: none;
+	background: none;
+}
+.youtube-icon i{
+	margin-top: 4px;
+	font-size: 28px;
+}
+.fa-youtube{
+	color: red !important;
+
+}
+.navbar i{
+	color: white;
+	cursor: pointer;
+
+}
+.fa-bars {
+	margin: 10px;
+	font-size: 16px;
+}
+ 
+.fa-microphone {
+	border: 1px solid black;
+	border-radius: 20px;
+	background: #141414;
+	padding: 9px 12px;
+	margin-left: 5px;
+	margin-right: 9px;
+}
+
+.fa-bell{
+	background: #333;
+	padding: 5px 5px;
+}
+.fa-table{
+	background: #333;
+	padding: 5px 16px;
+	margin-top: 10px;
+}
+.fa-plus-square{
+	background: #333;
+	padding: 5px 5px;  }
+.fa-user{
+	border: 1px solid #3ea6ff;
+	padding: 2px;
+	border-radius: 20px;
+}
+
+/*LEFT NAVBAR CSS*/
+
+
+
+.leftnavbar{
+	height: 100%;
+	width: 220px;
+	background: #141414;
+	line-height: 36px;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	position: fixed;
+	margin-top: 0px;
+}
+.leftnavbar i{ 
+	margin: 5px;
+	font-size: 12px;
+	cursor: pointer;
+	margin-right:18px ;
+ }
+ .leftnavbar li{
+ 	color: whitesmoke;
+ 	font-size: 14px;
+ 	cursor: pointer;
+ } 
+ .leftnavbar label{ 
+ 	font-size: 14px;
+ 	color: whitesmoke;
+	margin-left: 15px; 
+}
+.leftnav-sign{
+	color:#3ea6ff ;
+	border: 1px solid #3ea6ff;
+	padding: 0px 5px;
+	font-size: 12px;
+	cursor: pointer;
+	margin-left: 60px;
+	margin-bottom: 5px;
+}
+.leftnav-sign i{
+margin-right: 2px !important;
+}
+/*scroll bar modification*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: dimgrey; 
+  border-radius: 10px;
+}
+/*second leftnavbar*/
+	
+	.menu {
+		font-size: 10px;
+		border: none;
+	}
+	
+	.leftnavbar2 {
+		width: 72px;
+		height: 100%;
+		background: #333;
+		position: fixed;
+	}
+	
+	.leftnavbar2 li {
+		color: white;
+		text-align: center;
+		padding: 4px;
+		cursor: pointer;
+	}
+	
+	.home {
+		border: 1px solid black;
+	}
+	
+	.explore {
+		border: 1px solid black;
+	}
+	
+	.subscription {
+		border: 1px solid black;
+	}
+	
+	.library {
+		border: 1px solid black;
+	}
+	
+	.home:hover {
+		background: grey;
+	}
+	
+	.explore:hover {
+		background: grey;
+	}
+	
+	.subscription:hover {
+		background: grey;
+	}
+	
+	.library:hover {
+		background: grey;
+	}
+
+/*LINE MENU
+.navbar-linkmenu{
+	height: 50px;
+	width: 1320px;
+	position: relative;
+	background-color: grey;
+	top: 0px;
+	right: 0px;
+	margin-left: 220px;
+}
+.all{
+	border: 1px solid black;
+	margin: 5px;
+	padding: 4px 12px;
+	border-radius: 20px;
+	margin-left: 15px;
+	overflow-x: scrll;
+	
+	background: white;
+}
+.navbar-linkmenu1 button{
+	border: 1px solid black;
+	background: black;
+	color: whitesmoke;
+	border-radius: 20px;
+	padding: 4px;
+	margin: 5px;
+}*/
+/*main container of youtube*/
+.main-container{
+	max-height: 100%;
+	width: 1316px;
+	position: relative;
+	background-color: #0a0a0a;
+	top: 0px;
+	right: 0px;
+	margin-left: 220px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.container-card{
+	border: 1px solid black;
+	background: #1c1c1c;
+	color: white;
+	margin: 10px;
+	padding: 3px;
+	position: relative;
+}
+.container-card:hover .fa-clock{
+	opacity: 1;
+}
+.container-card:hover .fa-folder-open{
+	opacity: 1;
+}
+.container-card:hover .fa-ellipsis-v{ opacity: 1; }
+.containerheader{
+	margin-left: 7px;
+}
+.fa-clock{
+	position: absolute;
+	top: 2px;
+	right: 4px;
+	padding: 2px;
+	border: 1px solid black;
+	background: black;	
+	margin: 2px;
+  opacity: 0;
+  cursor: pointer;
+}
+.fa-folder-open{
+	position: absolute;
+	top: 30px;
+	right: 4px;
+	padding: 2px;
+	border: 1px solid black;
+	background: black;	
+	margin: 2px;
+  opacity: 0;
+  cursor: pointer;
+}
+li{ list-style: none; }
+
+ span{
+	position: absolute;
+	top: 4px;
+	right: 35px;
+	background-color: black;
+	padding: 2px;
+	color: white;
+	cursor: pointer;
+	display: none;
+	list-style: none;
+
+}
+.fa-ellipsis-v{
+	position: absolute;
+	right: 0px;
+	bottom: 50px;
+	opacity: 0;
+}
+.containerheader a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+

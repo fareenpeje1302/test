@@ -1,0 +1,398 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Fauna One, sans-serif;
+}
+
+
+
+/*navbar details*/
+.navbar{
+	background: #333;
+	height: 50px;	
+	position: fixed;	
+	margin-left: 220px;
+	width: 86%;
+}
+.nav-logbtn li{ list-style-type: none;}
+.nav-logbtn li .navlog-btn a{  
+	text-decoration: none; 
+	color: black;
+	padding: 8px 11px;
+	background: white;
+	border: 1px solid black;
+	border-radius: 20px;
+	right: 25px;
+	top: 3px;
+	position: absolute;
+	font-size: 17px;
+	transition: font-size 1s padding 1s;
+}	
+.nav-logbtn li .navlog-btn a:hover{  
+	font-size: 18px;
+	padding: 9px 12px;
+}
+.nav-logbtn li button{ border: none; background: none; }
+/*next and previous button*/
+.navbar .previous {
+  background-color: black;
+  color: white;
+}
+
+.navbar .next {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.navbar .round {
+  border-radius: 50%;
+}
+.navbar .arrow a{
+	text-decoration: none;
+  display: inline-block;
+  padding: 5px 11px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+ .navbar .acc a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 9px;
+  margin-top: 3px;
+  margin-left: 3px;
+  top: 0px;
+  right: 0px;
+}
+/*left menu*/
+
+.leftmenu {
+	height: 100%;
+	position: fixed;
+	width: 200px;
+	padding-top: 42px;
+	background-color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	top: 0px;
+	z-index: 1;
+}
+
+.list {
+	color: white;
+	text-decoration: none;
+	list-style: none;
+	background-color: black;
+	display: block;
+	border: 1px solid #141414;
+	border-radius: 5px;
+	padding: 9px;
+	margin-bottom: 4px;
+	margin-left: 2px;
+}
+
+.fa-home {
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+.fa-search {
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+.fa-grip-lines-vertical {
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+.leftmenu1 li  a:hover {
+	background-color: #303030;
+	color: white;
+}
+
+.leftnav h1 {
+	background-color: black;
+	padding-bottom: 15px;
+	color: white;
+}
+
+/*music main content*/
+
+.container {
+	background-color: #292929;
+	padding-bottom: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.card {
+	border: 1px solid black;
+	width: 180PX;
+	height: 300px;
+	margin: 2px;
+	background-color: #141414;
+	
+	color: white;
+	font-size: 12px;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.card:hover {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: #303030;
+	transition: 0.5s;
+}
+
+.detail {
+	padding-left: 4px;
+}
+
+div .img {
+	padding: 4px 4px 0px 4px;
+	height: 200px;
+
+	
+}
+
+.gate  {
+	list-style: none;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	bottom: 50px;
+	right: -121px;
+	justify-content: center;
+	align-items: center;
+	margin: 4px;
+	display: flex;
+	background: #32cd32;
+	cursor: pointer;
+	border-radius: 20px;
+	transition: transform 0.5s;
+	background-color: none;
+	border:none;
+	opacity: 0;
+	}
+.card:hover .gate{
+	transition: 0.5s ease-in-out;
+	transition-delay: 0s;
+	opacity: 1;
+}
+
+.fa-play {
+	font-size: 13px;
+	color: white;
+}
+.detail h2{
+margin: 5px;}
+.header {
+	background: #292929;
+	padding-left: 15px;
+	color: white;
+	
+}
+.header1 h1{
+	padding-top: 30px;
+	padding-bottom: 9px;
+	font-size: 24px;
+	font-family: cinzel,serif;
+	background: #292929;
+	padding-left: 15px;
+	color: white;
+}
+.header h1 {
+	padding-top: 60px;
+	padding-bottom: 9px;
+	font-size: 19px;
+	font-family: cinzel, serif;
+}
+/*audio control navbar*/
+
+.controlbar{
+	display: none;
+  margin-left: 220px;
+	padding: 8px;
+	background-color: white;  
+	width: 84.4%;  
+	position: sticky;
+	bottom: 0px;   
+	background: black;
+}
+.control {
+	font-family: serif;
+	z-index: 1;
+	float: right;
+	margin-bottom: 2px;
+	position: relative;
+	right: 84px;
+	margin-top: 6px;
+		}
+.ap_container{
+	border-radius: 103px !important;
+	padding-bottom: 3px !important;
+}
+.controlhead img {
+	margin-left: 13px;
+	position: absolute;
+	margin-top: 2px;
+	padding: 2px;
+
+}
+
+.controlhead h2 {
+	padding-left: 56px;
+	font-family: 'Dancing Script', cursive;
+	background-color: white;
+
+}
+
+.controlhead h6 {
+	padding-left: 58px;
+	position: absolute;
+	padding-bottom: 15px;
+	padding-right: 954px;
+	background-color: white;
+	position: relative;
+}
+ .close button {
+		position: absolute;
+    right: 17px;
+    bottom: 29px;
+    border: none;
+    background: none;
+}
+.close .fas:hover{color: black;}
+
+.close .fas{ 
+    background: none;
+    font-size: 23px;
+    cursor: pointer;
+    color: grey;
+}
+
+/*go to top button*/
+#mybtn{
+	z-index: 99;
+	right: 20px;
+	bottom: 16px;
+	border: 1px solid black;
+	border-radius: 12px;
+	display: none;
+	padding: 7px;
+  outline: none;
+  color: whitesmoke;
+  background-color: #1C1C1C;
+  cursor: pointer;
+  position: fixed;
+  font-size: 18px;
+}
+#mybtn:hover{
+	background-color: black;
+	color: white;
+
+}
+/*modal for sing up*/
+.modal{
+				display:none ;
+				position: fixed;
+				z-index: 1;
+				left: 0px;
+				top: 0px;
+				width: 100%;
+				height: 100%;
+				overflow: auto;
+				background-color:rgb(0,0,0); 
+				background-color:rgba(0,0,0,0.4) ;
+		 }
+		 /*modal content box*/
+		 .modal-content{
+		 		background-color: #fefefe;
+		 		color: white;
+		 		margin: 20% auto ;
+		 		margin-top: 40px;
+		 		padding: 20px;
+		 		border: 1px solid #888;
+		 		width: 45%;
+		 		height: 70%;
+		 		border-radius: 10px;
+		 		text-align: center;
+		 		background-image: linear-gradient(to bottom, #7a1f1f, #651b1c, #511619, #3e1215, #2b0e0e, #230b0d, #1b070b, #110206, #0e0409, #0b050a, #09070a, #080808);
+		 }
+		 /*close button*/
+		 .closebtn{
+		 		color: #aaa;
+		 		float: right;
+		 		font-size: 28px;
+		 		font-weight: bold;
+		 }
+		 .closebtn:hover,.closebtn:focus{
+		 		color: black;
+		 		text-decoration: none;
+		 		cursor: pointer;
+		 }
+		 .button-deco1 a{
+		 	background: #03c03c;
+		 	border-radius: 24px;
+		 	padding: 12px 67px;
+		 	border: none;
+		 	font-size: 12px;
+		 	cursor: pointer;
+		 	text-decoration: none;
+		 	color: white;
+		 }
+		 .button-deco1 a:hover{
+			font-size: 13px;
+		 	padding: 12px 69px;
+		 }
+		  .button-deco2 a{
+		 	background: whitesmoke;
+		 	border-radius: 24px;
+		 	padding: 12px 63px;
+		 	border: none;
+		 	font-size: 12px;
+		 	cursor: pointer;
+		 	color: black !important;
+		 	text-decoration: none;
+		 }
+		  .button-deco2 a:hover{
+		 	padding: 12px 65px;
+		 	font-size: 13px;
+		 }
+		 .modal-content button{
+		 	border: none;
+		 	background: none;
+		 }
+		.button-deco3 a{ 
+			border: none;
+			background: none;
+			font-size: 14px;
+			text-decoration: none;
+		 	color: white;
+
+		 }
+
+		 #modal-contentsize{ font-size: 11px;padding: 35px; }
+		 .acc {
+					text-decoration: none;
+					color: white;
+					margin-right: 15px;
+					justify-content: center;
+					align-content: center;
+					font-size: 18px;
+					padding: 4px 2px 4px 2px;
+					border: none;
+					transition: font-size 1s ease-in-out;
+					position: absolute;
+					top: 5px;
+					right: 107px;
+				}
+				.acc:hover{
+					font-size: 19px;
+				
+				}
+				.acc button{
+					border: none;
+					background-color: none;
+				}

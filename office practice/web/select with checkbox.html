@@ -1,0 +1,62 @@
+<html>
+<head>
+
+<title>jQuery Multi Select Dropdown with Checkboxes</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+
+<style>
+    .multiselect-container>li>a>label {
+  padding: 4px 20px 3px 20px;
+}
+</style>
+</head>
+
+<body>
+    <form id="form1">
+        <div style="padding:20px">
+      
+          <select id="chkveg" multiple="multiple">
+            <option value="cheese">Cheese</option>
+            <option value="tomatoes">Tomatoes</option>
+            <option value="mozarella">Mozzarella</option>
+            <option value="mushrooms">Mushrooms</option>
+            <option value="pepperoni">Pepperoni</option>
+            <option value="onions">Onions</option>
+          </select>
+          
+          <br /><br />
+      
+          <input type="button" id="btnget" value="Get Selected Values" />
+        </div>
+        <div class="text px-4 text-green-500">dascasc</div>
+      </form>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    $(function() {
+
+$('#chkveg').multiselect({
+  includeSelectAllOption: true
+});
+
+$('#btnget').click(function() {
+  alert($('#chkveg').val());
+});
+});
+</script>
+</body>
+</html>

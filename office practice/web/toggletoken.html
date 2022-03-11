@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Toggle</title>
+    <style>
+    
+ .radio-btn {
+	 appearance: none;
+	 display: none;
+	 height: 0;
+	 width: 0;
+}
+ .radio-btn + label {
+	 display: inline-block;
+	 margin-bottom: 0.5em;
+	 padding: 0.75em 1.25em;
+	 border-radius: 100em;
+	 color: darkgrey;
+	 background-color: lightgray;
+}
+ .radio-btn:checked + label {
+	 background-color: var(--blue);
+	 color: white;
+     background: blue;
+}
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Toggle Tokens</h2>
+        <input class="radio-btn" type="checkbox" name="radios" id="radio1" checked>
+        <label class="btn btn-outline-primary mr-2" for="radio1">Option 1</label>
+        
+        <input class="radio-btn" type="checkbox" name="radios" id="radio2">
+        <label class="btn btn-outline-primary mr-2" for="radio2">Option 2</label>
+        
+        <input class="radio-btn" type="checkbox" name="radios" id="radio3">
+        <label class="btn btn-outline-primary mr-2" for="radio3">Option 3</label>
+        
+      </div>
+</body>
+</html>
